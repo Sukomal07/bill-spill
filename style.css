@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #d6bcff;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 12%;
+}
+.title {
+  text-align: center;
+  color: #6f3cff;
+}
+.bill-container {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  padding: 38px;
+  background-color: #fff;
+  justify-content: space-between;
+  border-radius: 10px;
+  max-width: 500px;
+}
