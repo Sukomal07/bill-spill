@@ -23,15 +23,16 @@ function validateInput() {
 }
 
 function validateBill() {
-    if (amount.value.includes(',')) {
-        amount.value.replace(',', '.')
-    }
     billValue = parseFloat(amount.value)
     tipButton.forEach(btn => {
         if (billValue > 0) {
             btn.classList.add('true')
+            customTip.disabled = false
+            noOfPeople.disabled = false
         } else {
             btn.classList.remove('true')
+            customTip.disabled = true
+            noOfPeople.disabled = true
         }
     })
 
@@ -62,9 +63,6 @@ function tipCustomValue() {
 
 function setPeopleValue() {
     people = parseFloat(noOfPeople.value)
-    if (people <= 0) {
-        alert = 'number must greater than 0'
-    }
     validateInput()
 }
 
