@@ -101,10 +101,18 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: #9c60ff;
   color: #fff;
   font-size: 20px;
+  cursor: not-allowed;
+}
+.btn.true {
+  background-color: #9c60ff;
   cursor: pointer;
+}
+.btn.active {
+  background-color: #9c60ff;
+  border: 3px solid #4200ff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
 }
 .people-container {
   display: flex;
@@ -159,11 +167,11 @@ input[type="number"]::-webkit-outer-spin-button {
   justify-content: space-between;
 }
 .tip-amount > h4 {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
 }
 .tip-amount > span {
-  font-size: 30px;
+  font-size: 25px;
   color: #c39fff;
   font-weight: 700;
 }
@@ -172,11 +180,11 @@ input[type="number"]::-webkit-outer-spin-button {
   justify-content: space-between;
 }
 .total > h4 {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
 }
 .total > span {
-  font-size: 30px;
+  font-size: 25px;
   color: #c39fff;
   font-weight: 700;
 }
