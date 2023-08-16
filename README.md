@@ -2,7 +2,7 @@
 
 Bill Spill is a web application that makes splitting bills among a group of people hassle-free. With just a few inputs, users can quickly calculate individual shares, including tips, and get a clear overview of the bill distribution.
 
-![Bill Spill Screenshot](https://ibb.co/X41NXDy)
+![Bill Spill Screenshot](https://i.ibb.co/X41NXDy/screenshot.png)
 
 ## Features
 
